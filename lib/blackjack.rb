@@ -44,6 +44,7 @@ def hit?(card_total)
       card_three = deal_card
       card_total += card_three
       display_card_total(card_total)
+    else invalid_command
 end
 
 def invalid_command
