@@ -58,10 +58,7 @@ end
 def runner
   welcome
   initial_round
-  prompt_user
-  get_user_input
-    while get_user_input == 's'
-      prompt_user
-    end
+  hit?(card_total)
+  
 end
     
