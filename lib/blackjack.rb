@@ -54,7 +54,14 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
+# code runner here
 def runner
-  # code runner here
+  welcome
+  initial_round
+  prompt_user
+  get_user_input
+    while get_user_input == 's'
+      prompt_user
+    end
 end
     
